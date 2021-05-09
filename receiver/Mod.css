@@ -1,0 +1,19 @@
+p{
+ font-family: cursive;
+ text-align: left;
+ font-size: 30px;
+}
+td,tr{
+	font-size: 25px;
+	text-align: left;
+	font-family: cursive;
+}
+fieldset{
+	text-align: left;
+	border-color: black;
+}
+
+body{
+ font-family: cursive;
+ font-size: 25px;
+}

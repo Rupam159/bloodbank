@@ -1,0 +1,346 @@
+/* body{
+ font-family: cursive;
+ font-size: 25px;
+}
+p{
+ font-family: cursive;
+ text-align: center;
+ font-size: 30px;
+}
+ #log{
+ 	font-size: 10px;
+	font-family: cursive;
+	background-color: green;
+	color: white;
+	text-align: left;
+    display: block;
+    width: 20px;
+    height: 15px;
+    background: green;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+#reg{
+	display: block;
+    width: 115px;
+    height: 25px;
+    background: blue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+	font-size: 25px;
+	font-family: cursive;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	text-decoration-line: none;
+} */
+
+/* =====HEADER===== */
+body{
+    font-family: Arial, Helvetica, sans-serif;            
+}
+.page-header{
+    font-family: Arial, Helvetica, sans-serif;            
+	height: 66px;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.page-header .logo{
+    margin-left: 200px;
+	float: left;
+	padding-top: 23px;
+	box-sizing: border-box;
+}
+.page-header .logo img{
+	height: 66px;
+	align-items: center;
+
+}
+.page-header .main-nav{
+	float: right;
+}
+
+.main-nav li{
+	float: left;
+    /* margin-left: 90px; */
+    list-style-type:none;
+    margin-right: 40px;
+
+}
+ .main-nav li a{
+	 color: white;
+	 text-transform: uppercase;
+	 text-decoration: none;
+     line-height: 40px;
+     font-size:15px;
+     margin-left: 0px;
+     margin-right: 75px;
+ }
+ 
+
+.main-nav li a:hover{
+	color: #ff0000;
+
+}
+
+/*===== Login Styling===== */
+.red{
+    color: red;
+}
+.dcontainer{
+    margin-top: 180px;
+}
+.wrapper-body{
+    font-family: Arial, Helvetica, sans-serif;            
+    margin: 100px auto;
+    width: 700px;
+    /* height: 1000px; */
+    
+}
+
+.login-donor{
+    /* display: flex;  */
+    border: 1.5px solid #A9A9A9;
+    border-radius: 10px;
+    /* justify-content: space-around; */
+    /* background: #d3d3d3; */
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.login-donor input{
+    width: 250px;
+    height: 30px;
+    margin-left: 75px;
+    
+}
+.dlogin-field{
+    padding-top: 40px;
+    padding-left:50px;
+}
+.dlogin-field:nth-child(2){
+    padding-bottom: 30px
+}
+
+/* .register{
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 3px 6px #e8e8e8 inset;
+} */
+
+
+.donor-btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.register-btn{
+    /* width: 190px;
+    height: 50px; */
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 0.5px 5px;
+    line-height: 50px;
+    min-width: 190px;
+    font-weight: 400;
+    /* margin: 0 500px; */
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.login-btn{
+    width: 190px;
+    height: 50px;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 15px 30px;
+    /* padding-bottom: 10px; */
+    /* line-height: 60px; */
+    min-width: 190px;
+    font-weight: 400;
+    /* margin-left: 100px; */
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+/*======= Registration Form =======*/
+.wrapper-body1{
+    margin: 30px auto;
+    width: 700px;
+    /* height: 1000px; */
+    
+}
+
+h3{
+    color: red;
+}
+.login,.information,.contact-information{
+    display: flex; 
+    border: 1.5px solid #A9A9A9;
+    border-radius: 10px;
+    justify-content: space-around;
+    /* background: #d3d3d3; */
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 0 10px #ccc;
+}
+/* .left-side{
+    margin-right: 20px;
+    padding-left: 10px;
+} */
+
+.login input,.information input,.contact-information input{
+    width: 200px;
+    height: 30px;
+    
+}
+
+.selection{
+    height: 36px;
+    width: 200px
+}
+
+.terms{
+    display: flex;
+    margin-top: 25px;
+}
+.checkbox-text{
+    margin-top: 0;
+}
+
+.register{
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 3px 6px #e8e8e8 inset;
+}
+
+
+.register-btn1{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 0 15px;
+    line-height: 50px;
+    min-width: 190px;
+    font-weight: 400;
+    /* margin: 0 auto; */
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap
+}
+.heading{
+    color: #fff;
+    /* background-color: #d9534f;
+    border-color: #d43f3a; */
+    background: rgba(0,0,0,0.8);
+    padding: 0 15px;
+    line-height: 60px;
+    min-width: 190px;
+    min-height: 60px;
+    font-weight: 400;
+    /* margin: 0 auto; */
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap
+}
+
+/* ====After Login==== */
+
+.separation-block{
+    position: absolute;
+    top: 120px;
+    margin: 0 auto;
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
+}
+
+.some-info{
+    margin-left: 80px;
+}
+.some-info p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+.user{
+    position: absolute;
+    top: 120px;
+    display: flex;
+    left: 1000px;
+    justify-content: space-between;
+}
+/* .update,.logout{
+    color: black;
+} */
+.user a{
+    text-decoration: none;
+    color: black;
+}
+
+.user h2{
+    font-weight: 200;
+}
+
+.redtext{
+    font-size: 18px;
+    margin-top: -7px;
+    color: red;
+    font-weight: 800;
+}
+
+.hide{
+    display: none;
+}
+
+/*=== Search Donors==== */
+.search-d{
+    /* position: absolute; */
+    margin-top: 200px;
+}
